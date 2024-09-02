@@ -1,0 +1,42 @@
+/project-root
+│
+├── /client                  # React.js frontend
+│   ├── /public              # Public assets like images, index.html
+│   ├── /src                 # Source files
+│   │   ├── /assets          # Static assets (images, fonts, etc.)
+│   │   ├── /components      # Reusable components
+│   │   ├── /context         # React Context API for state management
+│   │   ├── /hooks           # Custom hooks
+│   │   ├── /pages           # Page components (for React Router)
+│   │   ├── /services        # API calls, external services
+│   │   ├── /styles          # Global styles (CSS/SASS)
+│   │   ├── /utils           # Utility functions
+│   │   ├── App.js           # Main App component
+│   │   ├── index.js         # Entry point for React app
+│   │   └── ...
+│   ├── package.json         # Client-side dependencies
+│   └── ...
+│
+├── /server                  # Express.js backend
+│   ├── /config              # Configuration files (e.g., database, environment variables)
+│   ├── /controllers         # Route handlers (controller logic)
+│   ├── /middleware          # Express middleware (e.g., auth, logging)
+│   ├── /models              # Database models (e.g., Mongoose schemas)
+│   ├── /routes              # API routes
+│   ├── /services            # Business logic, external services
+│   ├── /utils               # Utility functions
+│   ├── /validation          # Request validation logic
+│   ├── app.js               # Express app setup
+│   ├── server.js            # Entry point for the server
+│   ├── package.json         # Server-side dependencies
+│   └── ...
+│
+├── .env                     # Environment variables
+├── .gitignore               # Git ignore rules
+├── package.json             # Project-wide dependencies and scripts
+├── README.md                # Project documentation
+└── ...
+
+Notes:
+Route > Controller > Models
+
